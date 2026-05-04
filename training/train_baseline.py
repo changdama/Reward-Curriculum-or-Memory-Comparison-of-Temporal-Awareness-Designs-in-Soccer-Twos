@@ -1,8 +1,3 @@
-"""
-实验 1: Baseline PPO (multiagent_player)
-与 GitHub 原版 example_ray_ma_players.py 完全一致。
-无任何修改，作为对照基线。
-"""
 import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
