@@ -1,7 +1,4 @@
-"""
-实验 3: PPO + Adaptive TTG (multiagent_player, temporal_pressure=1.0 固定)
-注意：ObsAugmentWrapper 给 obs 加了 3 维，所以 obs_space 变大。
-"""
+
 import ray
 from ray import tune
 from soccer_twos import EnvType
