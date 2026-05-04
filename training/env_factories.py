@@ -1,14 +1,4 @@
-"""
-env_factories.py (multiagent_player 版)
 
-所有实验都使用 EnvType.multiagent_player:
-  - obs: Dict[int, ndarray]   {0: obs0, 1: obs1, 2: obs2, 3: obs3}
-  - reward: Dict[int, float]
-  - done: Dict[int, bool]
-  - action: Dict[int, ndarray] (MultiDiscrete)
-
-4 个 player 共享同一个 policy ("default")，通过 multiagent config 配置。
-"""
 import sys
 import os
 
