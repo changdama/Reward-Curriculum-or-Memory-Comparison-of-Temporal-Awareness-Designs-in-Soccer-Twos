@@ -1,4 +1,3 @@
-"""实验 5: PPO + LSTM + Adaptive TTG + Curriculum - PACE version"""
 import sys, os, random
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
