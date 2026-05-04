@@ -1,7 +1,4 @@
-"""
-实验 4: PPO + Adaptive TTG + Temporal Curriculum (multiagent_player)
-完整方案：adaptive reward + 渐进式时间压力 + 4 player 协作
-"""
+
 import ray
 from ray import tune
 from soccer_twos import EnvType
