@@ -1,5 +1,5 @@
 """
-TemporalCurriculumCallback: 根据训练进度动态调整 temporal_pressure。
+TemporalCurriculumCallback:
 Phase 0 (0~2M steps):  pressure = 0.0
 Phase 1 (2M~5M):       pressure = 0.3
 Phase 2 (5M~8M):       pressure = 0.6
